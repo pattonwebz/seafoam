@@ -1,0 +1,95 @@
+/*
+Theme Name: Seafoam
+Theme URI: http://www.pattonwebz.com/seafoam-theme/
+Template: best-reloaded
+Author: William Patton
+Author URI: http://pattonwebz.com/
+Description: A blue/green theme with a mix of contrasting text. Uses Bootstrap 4.
+Tags: left-sidebar,right-sidebar,custom-colors,custom-menu,editor-style,featured-images,full-width-template,theme-options,threaded-comments,translation-ready
+Version: 1.0.0
+*/
+
+body {
+	color: #d7d7d7;
+	background-color: #1558a5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h3.widget-title {
+	color: #f0f8ff;
+}
+a {
+	color: #8AC5FF;
+}
+a:focus, a:hover {
+	color: #4096f3;
+}
+hr {
+	border-top: 1px solid rgba(255,255,255,0.25)
+}
+
+.container-main {
+	background-color: #002435;
+}
+
+.name-text h1 a,
+.name-text span.h1 a {
+	color: #4096f3;
+}
+.name-text h1 a:hover,
+.name-text span.h1 a:hover {
+	color: #8AC5FF;
+}
+
+.featured-bar {
+	background-color: #0090f4;
+	color: #ddd;
+}
+.featured-bar h1,
+.featured-bar h2,
+.featured-bar h3,
+.featured-bar h4,
+.featured-bar h5,
+.featured-bar h6, {
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
+}
+.featured-bar a {
+	color: #002230;
+}
+.featured-bar a:hover,
+.featured-bar a:focus {
+	color: #badbff;
+}
+
+.pager {
+	border-top: 1px solid rgba(255,255,255,0.25);
+	border-bottom: 1px solid rgba(255,255,255,0.25);
+}
+.carousel .carousel-control-next, .carousel .carousel-control-prev {
+	background: #1558a5;
+}
+
+#site-footer {
+	background-color: #007bff;
+	color: #f0f8ff;
+	border-top: 3px solid rgba(255,255,255,0.25);
+}
+#site-footer a {
+	color: rgba(255,255,255,.75);
+}
+#site-footer a:focus,
+#site-footer a:hover {
+	color: rgba(255,255,255,.5);
+}
+
+#comments .pingback,
+#comments article.comment {
+	background-color: #131313;
+	border: 1px solid #484848;
+	-webkit-box-shadow: inset 0 0 20px #2d2d2d;
+	box-shadow: inset 0 0 20px #2d2d2d;
+}

@@ -21,7 +21,9 @@ It also includes some basic support for styling Gravity Forms to keep it in line
 == Limitations ==
 This theme uses `Bootstrap` and the `WP Bootstrap Navwalker` so navigation is limited to only a top level and a single level of dropdown. Additionally items with dropdowns have the links converted to '#' - this is in line with Bootstrap standards and is due to clickable dropdown toggles not being touch screen friendly.
 
-== Resources ==
+== Resources/Copyrights ==
+
+Seafoam WordPress Theme is a child theme of the Best Reloaded WordPress theme.
 
 All resources included in this child theme are released under GPLv2 or later licensing.
 

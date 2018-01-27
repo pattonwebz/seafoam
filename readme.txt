@@ -23,7 +23,11 @@ This theme uses `Bootstrap` and the `WP Bootstrap Navwalker` so navigation is li
 
 == Resources/Copyrights ==
 
-Seafoam WordPress Theme is a child theme of the Best Reloaded WordPress theme.
+Seafoam WordPress Theme, Copyright 2018 William Patton
+Seafoam is distributed under the therms of the GNU GPL.
+
+Seafoam WordPress Theme is a child theme of the Best Reloaded WordPress theme, Copyright 2017 William Patton.
+Best Releaded is distributed under the terms of the GNU GPL.
 
 All resources included in this child theme are released under GPLv2 or later licensing.
 

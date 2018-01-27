@@ -15,9 +15,10 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Enqueue this themes and set parent theme styles as dependancies.
  */
 function seafoam_enqueue_css() {
-	wp_enqueue_style( 'seafoam', trailingslashit( get_stylesheet_directory_uri() ) . 'style.css', array( 'best-reloaded' ) );
+	wp_enqueue_style( 'seafoam', get_stylesheet_uri(), array( 'best-reloaded' ) );
 }
 add_action( 'wp_enqueue_scripts', 'seafoam_enqueue_css' );
+
 
 /**
  * Filters the help and support message values in the customizer.
@@ -66,6 +67,7 @@ add_filter( 'best_reloaded_filter_theme_settings_panel_title', 'seafoam_filter_t
  * Filter the default values that are passed to the customizer object.
  *
  * @param array $defaults An array of mixed type key=>value data.
+ *
  * @return array          updated array of values
  */
 function seafoam_filter_setting_defaults( $defaults ) {
